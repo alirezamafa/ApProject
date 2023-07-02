@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane prefHeight="266" prefWidth="585" stylesheets="@../styleshop.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.SellOrBuyPage">
+<children>
+    <ImageView fitHeight="266.0" fitWidth="594.0" layoutX="-4.0" layoutY="-1.0">
+        <image>
+            <Image url="@../Media/absloutebackground.png" />
+        </image>
+    </ImageView>
+      <ImageView fitHeight="104.0" fitWidth="110.0" layoutX="381.0" layoutY="146.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/coins.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="coinsLabel" layoutX="405.0" layoutY="95.0" prefHeight="17.0" prefWidth="59.0" />
+      <Button onMouseClicked="#buy" layoutX="187.0" layoutY="122.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="201.0" text="buy" />
+      <Button onMouseClicked="#sell" layoutX="187.0" layoutY="170.0" mnemonicParsing="false" text="sell" />
+      <ImageView fx:id="next" fitHeight="65.0" fitWidth="59.0" layoutX="157.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView onMouseClicked="#next" fitHeight="55.0" fitWidth="48.0" layoutX="102.0" layoutY="47.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/next.png" />
+         </image>
+      </ImageView>
+      <ImageView onMouseClicked="#prev" fitHeight="55.0" fitWidth="48.0" layoutX="54.0" layoutY="47.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/prev.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="prev" fitHeight="65.0" fitWidth="54.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView onMouseClicked="#back" fitHeight="55.0" fitWidth="68.0" layoutY="211.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="current" fitHeight="79.0" fitWidth="75.0" layoutX="88.0" layoutY="155.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="goodNumber" layoutX="113.0" layoutY="112.0" />
+</children>
+</Pane>

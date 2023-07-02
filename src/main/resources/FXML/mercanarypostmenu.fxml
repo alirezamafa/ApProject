@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane prefHeight="197.0" prefWidth="570.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.MercanryPostPage">
+    <ImageView>
+        <image>
+            <Image url="@../Media/mercanarypost/MercenaryBarrack.png" />
+        </image>
+    </ImageView>
+   <ImageView fitHeight="82.0" fitWidth="40.0" layoutX="27.0" layoutY="71.0" onMouseClicked="#slave" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../Media/mercanarypost/Slave.png" />
+      </image>
+   </ImageView>
+   <ImageView fitHeight="82.0" fitWidth="57.0" layoutX="98.0" layoutY="65.0" onMouseClicked="#archer" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../Media/mercanarypost/ArabArcher.png" />
+      </image>
+   </ImageView>
+   <ImageView fitHeight="82.0" fitWidth="57.0" layoutX="173.0" layoutY="65.0" onMouseClicked="#swordman" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../Media/mercanarypost/swordsman.png" />
+      </image>
+   </ImageView>
+   <ImageView fitHeight="82.0" fitWidth="57.0" layoutX="247.0" layoutY="65.0" onMouseClicked="#slinger" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../Media/mercanarypost/slinger.png" />
+      </image>
+   </ImageView>
+   <ImageView fitHeight="82.0" fitWidth="57.0" layoutX="327.0" layoutY="65.0" onMouseClicked="#horseman" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../Media/mercanarypost/arabhorseman.png" />
+      </image>
+   </ImageView>
+   <ImageView fitHeight="82.0" fitWidth="57.0" layoutX="404.0" layoutY="65.0" onMouseClicked="#assassins" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../Media/mercanarypost/assassins.png" />
+      </image>
+   </ImageView>
+   <ImageView fitHeight="82.0" fitWidth="57.0" layoutX="490.0" layoutY="57.0" onMouseClicked="#firethrower" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../Media/mercanarypost/firethrower.png" />
+      </image>
+   </ImageView>
+   <Label fx:id="peasantsNumber" layoutX="504.0" layoutY="169.0" prefHeight="18.0" prefWidth="30.0" />
+   <ImageView fitHeight="39.0" fitWidth="30.0" layoutX="539.0" layoutY="147.0" onMouseClicked="#details" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../Media/details2.png" />
+      </image>
+   </ImageView>
+   <Label fx:id="error" layoutX="217.0" layoutY="168.0" prefHeight="17.0" prefWidth="138.0" textFill="#d40d0d" />
+</Pane>

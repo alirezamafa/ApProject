@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="266.0" prefWidth="585.0" stylesheets="@../style1.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.PriceList">
+    <children>
+        <ImageView fitHeight="266.0" fitWidth="594.0" layoutX="-1.0">
+            <image>
+                <Image url="@../Media/absloutebackground.png" />
+            </image>
+        </ImageView>
+      <ImageView onMouseClicked="#back" fitHeight="54.0" fitWidth="54.0" layoutY="97.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/back.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="108.0" fitWidth="68.0" layoutX="54.0" layoutY="76.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/meetPs.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="108.0" fitWidth="68.0" layoutX="122.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/cheesePs.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="108.0" fitWidth="68.0" layoutX="190.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/applePs.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="108.0" fitWidth="68.0" layoutX="262.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/alePs.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="90.0" fitWidth="68.0" layoutX="331.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/woodPs.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="108.0" fitWidth="68.0" layoutX="395.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/stonePs.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="108.0" fitWidth="68.0" layoutX="463.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/spearPs.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="108.0" fitWidth="68.0" layoutX="54.0" layoutY="176.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/bowPs.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="108.0" fitWidth="68.0" layoutX="122.0" layoutY="176.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/pikePs.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="108.0" fitWidth="68.0" layoutX="190.0" layoutY="180.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/leatherarmorPs.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="108.0" fitWidth="68.0" layoutX="258.0" layoutY="179.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/hopsPs.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="98.0" fitWidth="68.0" layoutX="327.0" layoutY="101.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/wheatPs.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="108.0" fitWidth="68.0" layoutX="395.0" layoutY="129.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/breadPs.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="108.0" fitWidth="68.0" layoutX="463.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/ironPs.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="82.0" fitWidth="60.0" layoutX="531.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/crossbowPs.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="90.0" fitWidth="60.0" layoutX="331.0" layoutY="201.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/swordsPs.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="89.0" fitWidth="60.0" layoutX="531.0" layoutY="90.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/pitchPs.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="108.0" fitWidth="68.0" layoutX="527.0" layoutY="169.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/macePs.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="108.0" fitWidth="68.0" layoutX="463.0" layoutY="181.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/metalarmorPs.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="200.0" layoutX="56.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/label3.png" />
+         </image>
+      </ImageView>
+    </children>
+</Pane>

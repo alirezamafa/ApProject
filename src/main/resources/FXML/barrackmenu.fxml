@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane prefHeight="362.0" prefWidth="962.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.BarrackPage">
+<ImageView>
+    <image>
+        <Image url="@../Media/barrack/Barrack.png" />
+    </image>
+</ImageView>
+   <ImageView fitHeight="127.0" fitWidth="97.0" layoutX="54.0" layoutY="130.0" onMouseClicked="#archer" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../Media/barrack/archer.png" />
+      </image>
+   </ImageView>
+   <ImageView onMouseClicked="#spearman" fitHeight="127.0" fitWidth="97.0" layoutX="182.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../Media/barrack/spearman.png" />
+      </image>
+   </ImageView>
+   <ImageView onMouseClicked="#maceman" fitHeight="127.0" fitWidth="97.0" layoutX="319.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../Media/barrack/maceman.png" />
+      </image>
+   </ImageView>
+   <ImageView onMouseClicked="#crossbowman" fitHeight="127.0" fitWidth="97.0" layoutX="444.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../Media/barrack/crossbowman.png" />
+      </image>
+   </ImageView>
+   <ImageView onMouseClicked="#pikeman" fitHeight="127.0" fitWidth="97.0" layoutX="574.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../Media/barrack/pikeman.png" />
+      </image>
+   </ImageView>
+   <ImageView onMouseClicked="#USman" fitHeight="127.0" fitWidth="97.0" layoutX="707.0" layoutY="140.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../Media/barrack/europianswordman.png" />
+      </image>
+   </ImageView>
+   <ImageView onMouseClicked="#UHman" fitHeight="127.0" fitWidth="97.0" layoutX="835.0" layoutY="140.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../Media/barrack/europianhorseman.png" />
+      </image>
+   </ImageView>
+   <ImageView onMouseClicked="#details" fitHeight="52.0" fitWidth="46.0" layoutX="916.0" layoutY="285.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../Media/details2.png" />
+      </image>
+   </ImageView>
+   <Label fx:id="peasantsNumber" layoutX="858.0" layoutY="77.0" textFill="WHITE" />
+   <Label fx:id="error" layoutX="419.0" layoutY="330.0" prefHeight="17.0" prefWidth="121.0" textFill="#e10a0a" />
+</Pane>

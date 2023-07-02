@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane prefHeight="266" prefWidth="585" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.WeaponMenu">
+<children>
+    <ImageView fitHeight="266.0" fitWidth="594.0" layoutX="-4.0" layoutY="-1.0">
+        <image>
+            <Image url="@../Media/absloutebackground.png" />
+        </image>
+    </ImageView>
+      <ImageView onMouseClicked="#back" fitHeight="65.0" fitWidth="60.0" layoutY="210.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/back.png" />
+         </image>
+      </ImageView>
+      <ImageView onMouseClicked="#toSword" fitHeight="64.0" fitWidth="60.0" layoutX="10.0" layoutY="101.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/weapon/sword.png" />
+         </image>
+      </ImageView>
+      <ImageView onMouseClicked="#toBow" fitHeight="64.0" fitWidth="60.0" layoutX="70.0" layoutY="105.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/weapon/arc.png" />
+         </image>
+      </ImageView>
+      <ImageView onMouseClicked="#toPike" fitHeight="64.0" fitWidth="60.0" layoutX="130.0" layoutY="104.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/weapon/pike.png" />
+         </image>
+      </ImageView>
+      <ImageView onMouseClicked="#toMace" fitHeight="64.0" fitWidth="60.0" layoutX="190.0" layoutY="103.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/weapon/mace.png" />
+         </image>
+      </ImageView>
+      <ImageView onMouseClicked="#toCrossBow" fitHeight="64.0" fitWidth="60.0" layoutX="263.0" layoutY="104.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/weapon/crossbow.png" />
+         </image>
+      </ImageView>
+      <ImageView onMouseClicked="#toMetal" fitHeight="64.0" fitWidth="60.0" layoutX="341.0" layoutY="104.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/weapon/metalarmour.png" />
+         </image>
+      </ImageView>
+      <ImageView onMouseClicked="#toLeather" fitHeight="76.0" fitWidth="66.0" layoutX="415.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/weapon/leatherArmour.png" />
+         </image>
+      </ImageView>
+      <ImageView onMouseClicked="#toSpear" fitHeight="86.0" fitWidth="72.0" layoutX="481.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/weapon/spear.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="59.0" fitWidth="200.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/trade3.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="16.0" layoutY="69.0" text="sword" />
+      <Label layoutX="86.0" layoutY="69.0" text="bow" />
+      <Label layoutX="146.0" layoutY="69.0" text="pike" />
+      <Label layoutX="200.0" layoutY="69.0" text="mace" />
+      <Label layoutX="268.0" layoutY="69.0" text="crossbow" />
+      <Label layoutX="335.0" layoutY="69.0" text="metal armour" />
+      <Label layoutX="415.0" layoutY="69.0" text="leather armour" />
+      <Label layoutX="503.0" layoutY="69.0" text="spear" />
+      <Label layoutX="26.0" layoutY="175.0" />
+      <Label layoutX="95.0" layoutY="175.0" />
+      <Label layoutX="146.0" layoutY="175.0" />
+      <Label layoutX="206.0" layoutY="175.0" />
+      <Label layoutX="279.0" layoutY="175.0" />
+      <Label layoutX="357.0" layoutY="175.0" />
+      <Label layoutX="434.0" layoutY="175.0" />
+      <Label layoutX="503.0" layoutY="175.0" />
+</children>
+</Pane>

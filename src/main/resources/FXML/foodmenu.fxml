@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane prefHeight="266.0" prefWidth="585.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.FoodMenu">
+<children>
+    <ImageView fitHeight="266.0" fitWidth="594.0" layoutX="-4.0" layoutY="-1.0">
+        <image>
+            <Image url="@../Media/absloutebackground.png" />
+        </image>
+    </ImageView>
+      <ImageView fitHeight="87.0" fitWidth="78.0" layoutX="63.0" layoutY="92.0" onMouseClicked="#toMeat" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/absloutefood/meat.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="93.0" fitWidth="78.0" layoutX="147.0" layoutY="96.0" onMouseClicked="#toCheese" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/absloutefood/cheese.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="83.0" fitWidth="78.0" layoutX="225.0" layoutY="92.0" onMouseClicked="#toApple" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/absloutefood/apple.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="83.0" fitWidth="78.0" layoutX="303.0" layoutY="86.0" onMouseClicked="#toAle" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/absloutefood/ale.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="83.0" fitWidth="78.0" layoutX="372.0" layoutY="86.0" onMouseClicked="#toHops" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/absloutefood/barley.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="83.0" fitWidth="78.0" layoutX="450.0" layoutY="79.0" onMouseClicked="#toWheat" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/absloutefood/wheat.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="83.0" fitWidth="78.0" layoutX="510.0" layoutY="94.0" onMouseClicked="#toBread" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/absloutefood/bread.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="83.0" fitWidth="78.0" layoutX="-1.0" layoutY="92.0" onMouseClicked="#toFlour" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/absloutefood/floor.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="26.0" layoutY="62.0" text="flour" />
+      <Label layoutX="90.0" layoutY="62.0" text="meat" />
+      <Label layoutX="159.0" layoutY="62.0" text="cheese" />
+      <Label layoutX="246.0" layoutY="62.0" text="apple" />
+      <Label layoutX="322.0" layoutY="62.0" text="ale" />
+      <Label layoutX="397.0" layoutY="62.0" text="hops" />
+      <Label layoutX="466.0" layoutY="62.0" text="wheat" />
+      <Label layoutX="535.0" layoutY="62.0" text="bread" />
+      <Label fx:id="label1" layoutX="25.0" layoutY="191.0" />
+      <Label fx:id="label2" layoutX="89.0" layoutY="191.0" />
+      <Label fx:id="label3" layoutX="172.0" layoutY="191.0" />
+      <Label fx:id="label4" layoutX="247.0" layoutY="191.0" />
+      <Label fx:id="label5" layoutX="316.0" layoutY="191.0" />
+      <Label fx:id="label6" layoutX="396.0" layoutY="191.0" />
+      <Label fx:id="label7" layoutX="466.0" layoutY="191.0" />
+      <Label fx:id="label8" layoutX="535.0" layoutY="191.0" />
+      <ImageView fitHeight="47.0" fitWidth="200.0" layoutX="26.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/trade.png" />
+         </image>
+      </ImageView>
+      <ImageView onMouseClicked="#back" fitHeight="47.0" fitWidth="52.0" layoutX="3.0" layoutY="219.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/back.png" />
+         </image>
+      </ImageView>
+</children>
+</Pane>

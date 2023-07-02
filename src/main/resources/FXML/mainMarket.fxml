@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="266.0" prefWidth="585.0" stylesheets="@../style1.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.MainMarket">
+    <children>
+        <ImageView fitHeight="266.0" fitWidth="594.0" layoutX="-1.0">
+            <image>
+                <Image url="@../Media/absloutebackground.png" />
+            </image>
+        </ImageView>
+      <ImageView  onMouseClicked="#food" fitHeight="92.0" fitWidth="63.0" layoutX="136.0" layoutY="117.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/food.png" />
+         </image>
+      </ImageView>
+      <ImageView onMouseClicked="#materials" fitHeight="75.0" fitWidth="63.0" layoutX="222.0" layoutY="117.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/industry.png" />
+         </image>
+      </ImageView>
+      <ImageView onMouseClicked="#weapon" fitHeight="102.0" fitWidth="73.0" layoutX="313.0" layoutY="110.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/weapon.png" />
+         </image>
+      </ImageView>
+      <ImageView onMouseClicked="#showPrices" fitHeight="92.0" fitWidth="73.0" layoutX="395.0" layoutY="110.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/pricelist2.png" />
+         </image>
+      </ImageView>
+      <ImageView  onMouseClicked="#details" fitHeight="57.0" fitWidth="41.0" layoutX="551.0" layoutY="225.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/details2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="136.0" fitWidth="274.0" layoutX="22.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/label.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="200.0" layoutX="185.0" layoutY="222.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/label2.png" />
+         </image>
+      </ImageView>
+    </children>
+</Pane>

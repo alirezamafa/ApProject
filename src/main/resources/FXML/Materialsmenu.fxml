@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane prefHeight="266" prefWidth="585" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.MaterialsMenu">
+<children>
+    <ImageView fitHeight="266.0" fitWidth="594.0" layoutX="-4.0" layoutY="-1.0">
+        <image>
+            <Image url="@../Media/absloutebackground.png" />
+        </image>
+    </ImageView>
+      <ImageView onMouseClicked="#back" fitHeight="56.0" fitWidth="53.0" layoutY="215.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/back.png" />
+         </image>
+      </ImageView>
+      <ImageView onMouseClicked="#toWood" fitHeight="76.0" fitWidth="69.0" layoutX="113.0" layoutY="102.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/materials/wood.png" />
+         </image>
+      </ImageView>
+      <ImageView onMouseClicked="#toIron" fitHeight="61.0" fitWidth="69.0" layoutX="215.0" layoutY="105.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/materials/iron.png" />
+         </image>
+      </ImageView>
+      <ImageView onMouseClicked="#toPitch" fitHeight="61.0" fitWidth="69.0" layoutX="309.0" layoutY="102.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/materials/oil.png" />
+         </image>
+      </ImageView>
+      <ImageView onMouseClicked="#toStone" fitHeight="61.0" fitWidth="69.0" layoutX="400.0" layoutY="103.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/materials/stone.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="59.0" fitWidth="200.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/trade2.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="134.0" layoutY="64.0" text="wood" />
+      <Label layoutX="236.0" layoutY="64.0" text="iron" />
+      <Label layoutX="324.0" layoutY="64.0" text="pitch" />
+      <Label layoutX="421.0" layoutY="64.0" text="stone" />
+      <Label layoutX="135.0" layoutY="185.0" />
+      <Label layoutX="236.0" layoutY="185.0" />
+      <Label layoutX="324.0" layoutY="185.0" />
+      <Label layoutX="422.0" layoutY="185.0" />
+</children>
+</Pane>
